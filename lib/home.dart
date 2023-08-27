@@ -34,11 +34,9 @@ class _HomeState extends State<Home> {
             IconTheme(
               data: IconThemeData(
                   color: isdark == true ? Colors.black : Colors.deepOrange),
-              child: Icon(
-                isdark == true
-                    ? (Icons.dark_mode_rounded)
-                    : Icons.light_mode_rounded,
-              ),
+              child: Icon(isdark == true
+                  ? (Icons.dark_mode_outlined)
+                  : Icons.light_mode_outlined),
             )
           ],
           leading: Switch(
