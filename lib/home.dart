@@ -39,6 +39,8 @@ class _HomeState extends State<Home> {
                   : Icons.light_mode_outlined),
             )
           ],
+
+          
           leading: Switch(
             inactiveThumbColor: Colors.amber,
             inactiveTrackColor: Colors.black,
